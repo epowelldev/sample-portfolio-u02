@@ -1,38 +1,41 @@
 body {
-
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
-
-h1 {}
-h2 {}
-h3 {}
-h4 {}
-h5 {}
-h6 {}
 
 header {
-
+    display: flex;
+    /*forces elements to the next line if they do not fit */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-nav {
+header ul {
+    display: flex;
+    align-items: flex-end;
+}
 
+header ul li {
+    padding: 5px;
+    border-bottom: 2px;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
 }
 
 main {
-
+    display: flex;
+    /*forces elements to the next line if they do not fit */
+    flex-wrap: wrap;
 }
-
-section {
-
-}
-
-
 
 footer {
-
+    position: absolute;
+    bottom: 0;
 }
 
-/* Start of classes section */
+/* media querys */
 
-.title-column {
-    width: 25%;
-}
+@media screen 
