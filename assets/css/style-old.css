@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #eeeef7;
+}
+
+header {
+    display: flex;
+    /*forces elements to the next line if they do not fit */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 45px 10px 0px;
+    background-color: #31343d;
+}
+
+header ul {
+    display: flex;
+    align-items: flex-end;
+}
+
+header ul li {
+    display: block;
+    font-size: large;
+    padding: 5px;
+    border-bottom: 3px solid #92ccce;
+    margin-right: 15px;
+}
+
+h1 {
+    padding: 7px 7px 7px 50px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #31343d;
+    background-color: #92ccce;
+}
+
+h3 {
+    font-size: 30px;
+    padding-right: 7px;
+    text-align: end;
+    color: #445877;
+}
+
+p {
+    line-height: 1.25;
+    color: #1c1d21;
+}
+
+header a {
+    text-decoration: none;
+    color: #92ccce;
+}
+
+.splash {
+    width: 100%;
+    position: relative;
+    justify-content: end;
+    padding: 50px 50px 15px 50px;
+    height: 200px;
+    background-image: url("../images/sunsetSplash.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+    color: #1c1d21;
+}
+
+.splash div {
+    position: absolute;
+    display: block;
+    max-width: fit-content;
+    right: 0;
+    bottom: 0;
+    margin: 0 50px 15px 0;
+}
+
+.splash div h1 {
+    font-size: 27px;
+    padding: 15px;
+}
+
+main {
+    width: 90vw;
+    display: flex;
+    /*forces elements to the next line if they do not fit */
+    flex-wrap: wrap;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.title-column {
+    align-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+    border-right: 3px solid #445877;
+    margin-right: 35px;
+}
+
+.content-column {
+    width: 75%;
+}
+
+.content-column div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1 {
+    width: 100%;
+    background-image: ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card {
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer {
+    position: absolute;
+    bottom: 0;
+} */
+
+/* mobile phones */
+[class*="col-"] {
+    width: 100%;
+}
+
+/* tablet */
+@media screen and (min-width: 600px) {
+
+}
+
+/*desktop */
+@media screen and (min-width: 768px) {
+
+}
