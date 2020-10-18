@@ -1,6 +1,6 @@
 /* colors used in this project
 #445877
-#--pale-blue
+#92ccce
 #31343d
 #1c1d21
 #eeeef7
@@ -165,6 +165,20 @@ section {
 
 .card {
     flex: 0 0 48%;
+}
+#contact-me ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#contact-me li a { 
+        border-bottom: 3px solid var(--light-grayblue);
+        text-decoration: none;
+    }
+
+#contact-me li a:visited {
+    color: var(--light-grayblue);
 }
 
 /* tabletish */
