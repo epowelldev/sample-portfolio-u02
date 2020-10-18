@@ -1,6 +1,6 @@
 /* colors used in this project
 #445877
-#92ccce
+#--pale-blue
 #31343d
 #1c1d21
 #eeeef7
@@ -43,7 +43,7 @@ header ul li {
     display: block;
     font-size: large;
     padding: 5px;
-    border-bottom: 3px solid #92ccce;
+    border-bottom: 3px solid var(--pale-blue);
     margin-right: 15px;
 }
 
@@ -52,7 +52,7 @@ h1 {
     font-size: 32px;
     font-weight: bold;
     color: #31343d;
-    background-color: #92ccce;
+    background-color: var(--pale-blue);
 }
 
 h3 {
@@ -60,6 +60,12 @@ h3 {
     padding-right: 7px;
     text-align: end;
     color: #445877;
+}
+
+img {
+    border: 5px;
+    border-color: var(--pale-blue);
+    border-style: solid;
 }
 
 p {
@@ -70,7 +76,7 @@ p {
 
 header a {
     text-decoration: none;
-    color: #92ccce;
+    color: var(--pale-blue);
 }
 
 .splash {
@@ -128,8 +134,8 @@ section {
 }
 
 .content-column div {
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 /* .card1 {
@@ -140,11 +146,6 @@ section {
 
 .card {
     flex: 1;
-}
-
-img {
-    border: 5px;
-    border-color: var(--pale-blue);
 }
 
 .box1 a img {
