@@ -173,6 +173,7 @@ section {
     justify-content: space-around;
 }
 #contact-me li a { 
+        color: var(--light-grayblue);
         border-bottom: 3px solid var(--light-grayblue);
         text-decoration: none;
     }
