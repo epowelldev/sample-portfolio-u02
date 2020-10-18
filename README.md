@@ -18,4 +18,4 @@ There are still plenty of placeholders for me to come back and update once proje
 I still need much practice in commenting throughout my css and html.
 
 ![alt text](assets/images/sample-portfolio-u02.png "Deployed Screenshot")
-[Deployed Project](https://epowelldev.github.io/sample-portfolio-u02/index.html "Portfolio")
+[Deployed Project](https://epowelldev.github.io/sample-portfolio-u02/ "Portfolio")
